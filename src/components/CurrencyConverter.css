@@ -1,0 +1,158 @@
+.converter-box {
+  width: 100%;
+  max-width: 440px;
+  margin: 50px auto;
+  padding: 28px;
+  border-radius: 22px;
+
+  /* Glass - Dark */
+  background: rgba(20, 20, 20, 0.75);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.45);
+
+  direction: rtl;
+  color: white;
+  text-align: center;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+/* Flex rows */
+.row {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+/* Input field */
+.input-field {
+  flex: 1;
+  padding: 12px 14px;
+  border-radius: 12px;
+
+  background: #111;
+  border: 1px solid #333;
+  color: #fff;
+  font-size: 16px;
+}
+
+.input-field:focus {
+  border: 1px solid #6c63ff;
+}
+
+/* Select styling (React Select override) */
+.dark-select .css-13cymwt-control {
+  background: #111 !important;
+  border-radius: 12px !important;
+  border: 1px solid #333 !important;
+  min-height: 48px !important;
+}
+
+.dark-select .css-t3ipsp-control {
+  background: #111 !important;
+  border-color: #6c63ff !important;
+}
+
+.dark-select * {
+  color: #fff !important;
+}
+
+/* Swap button */
+.swap-btn {
+  width: 55px;
+  height: 55px;
+  background: #181818;
+  border: 1px solid #333;
+  border-radius: 50%;
+  margin: 12px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.swap-btn:hover {
+  background: #222;
+}
+
+/* Convert button */
+.convert-btn {
+  width: 100%;
+  padding: 14px 0;
+  background: #6c63ff;
+  border: none;
+  color: white;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.25s;
+}
+
+.convert-btn:hover {
+  background: #7c72ff;
+}
+
+/* حجم أكبر للـ Select */
+.dark-select .css-13cymwt-control,
+.dark-select .css-t3ipsp-control {
+  background: #111 !important;
+  border-radius: 14px !important;
+  border: 1px solid #444 !important;
+  min-height: 58px !important;   /* تكبير الارتفاع */
+  font-size: 17px !important;     /* تكبير الخط */
+}
+
+/* نص أوضح داخل القائمة */
+.dark-select .css-1nmdiq5-menu {
+  background: #161616 !important;
+  border-radius: 12px;
+  border: 1px solid #333;
+  padding: 6px;
+}
+
+/* خيار داخل القائمة */
+.dark-select .css-d7l1ni-option {
+  background: #161616 !important;
+  color: #eee !important;
+  padding: 12px 10px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+/* عند تمرير الماوس */
+.dark-select .css-d7l1ni-option:hover {
+  background: #6c63ff !important;
+  color: white !important;
+}
+
+/* عند اختيار عنصر */
+.dark-select .css-10wo9uf-option {
+  background: #6c63ff !important;
+  color: #fff !important;
+}
+.dark-select {
+  flex: 1;
+}
+
+.exchange-rate-info {
+  margin-top: 15px;
+  padding: 10px;
+  background: rgba(108, 99, 255, 0.1);
+  border-radius: 8px;
+  border: 1px solid rgba(108, 99, 255, 0.3);
+}
+
+.exchange-rate-info p {
+  margin: 0;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+}

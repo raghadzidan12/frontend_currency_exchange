@@ -1,0 +1,36 @@
+.app-container {
+  background: #0d0d0d;
+  min-height: 100vh;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: Arial, sans-serif;
+}
+
+.content-wrapper {
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+}
+
+.title {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 15px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+button {
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}

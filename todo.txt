@@ -1,0 +1,19 @@
+
+
+
+
+- home page: 
+    - exchange
+    - navbar to navigate to other routers: 
+    - login | contact us | about us | 
+    - footer terms and conditions | privacy and policy
+
+- login
+
+
+- dashbaord
+    - crud currencies
+    - user managements
+
+    - contactus messges
+    - update pages : terms and conditions | privacy and policy
